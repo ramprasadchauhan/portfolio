@@ -29,12 +29,12 @@ const About = () => {
           expertise to become a versatile Full-Stack Web Developer.
         </p>
         <p className="text-xl">
-          In addition to my front-end skills, I have delved into the realm of
+          In addition to my front-end skills, I have developed My skills in
           full-stack development, where I leverage Node.js, Express framework,
-          and MongoDB to create robust and scalable web applications. My
-          commitment to staying current with industry trends and my eagerness to
-          embrace new technologies make me a dynamic developer ready to tackle
-          diverse challenges.
+          and MongoDB as Database to create robust and scalable web
+          applications. My commitment to staying current with industry trends
+          and my eagerness to embrace new technologies make me a dynamic
+          developer ready to tackle diverse challenges.
         </p>
       </div>
     </div>

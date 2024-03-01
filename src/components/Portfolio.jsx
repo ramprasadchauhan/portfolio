@@ -1,22 +1,17 @@
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb89c6127750483.61489a00adcd0.png",
       name: "Fast Pizza App",
       hrefDemo: "https://bucolic-twilight-5c4767.netlify.app/",
       hrefCode: "https://github.com/ramprasadchauhan/Pizza-app",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: "https://i.pinimg.com/originals/1d/74/d7/1d74d77af4e326b0fd181982cdb04b2a.png",
       name: "Food Ordering App",
       hrefDemo: "https://reliable-medovik-1ead3b.netlify.app/",
       hrefCode: "https://github.com/ramprasadchauhan/Food-App",
@@ -31,21 +26,24 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
-      hrefDemo: "https://bucolic-twilight-5c4767.netlify.app/",
-      hrefCode: "https://github.com/ramprasadchauhan/Pizza-app",
+      src: "https://i.pinimg.com/originals/81/0a/5a/810a5ad87a41a8bcecfe61c6f4bae1af.png",
+      name: "Media-Blog-App",
+      hrefDemo: "https://mern-blog-1-lfrd.onrender.com/",
+      hrefCode: "https://github.com/ramprasadchauhan/mern-blog",
     },
     {
       id: 5,
-      src: installNode,
-      hrefDemo: "https://bucolic-twilight-5c4767.netlify.app/",
-      hrefCode: "https://github.com/ramprasadchauhan/Pizza-app",
+      src: "https://b2cdata.marketing.moveaws.com/images/b2bmrcdev/assets/itemeditorimage_5e86411da8c89.jpg",
+      name: "Realtor",
+      hrefDemo: "https://github.com/ramprasadchauhan/realtor-clone",
+      hrefCode: "https://github.com/ramprasadchauhan/realtor-clone",
     },
     {
       id: 6,
-      src: reactWeather,
-      hrefDemo: "https://bucolic-twilight-5c4767.netlify.app/",
-      hrefCode: "https://github.com/ramprasadchauhan/Pizza-app",
+      src: "https://images.softwaresuggest.com/latest_screenshots/1690540671_airbnb%20clone%20software.png.jpg",
+      name: "airbnb-clone",
+      hrefDemo: "https://github.com/ramprasadchauhan/airbnb",
+      hrefCode: "https://github.com/ramprasadchauhan/airbnb",
     },
   ];
 
@@ -68,7 +66,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md h-44 w-80 object-cover duration-200 hover:scale-105"
               />
               <div className="flex flex-col items-center justify-center">
                 <h3 className="mt-4">{name} </h3>
