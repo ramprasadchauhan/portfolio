@@ -42,7 +42,7 @@ const Portfolio = () => {
       id: 6,
       src: "https://images.softwaresuggest.com/latest_screenshots/1690540671_airbnb%20clone%20software.png.jpg",
       name: "airbnb-clone",
-      hrefDemo: "https://github.com/ramprasadchauhan/airbnb",
+      hrefDemo: "https://wanderlust-6k9k.onrender.com/",
       hrefCode: "https://github.com/ramprasadchauhan/airbnb",
     },
   ];
