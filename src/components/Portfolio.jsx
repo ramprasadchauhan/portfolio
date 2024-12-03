@@ -6,7 +6,7 @@ const Portfolio = () => {
       id: 1,
       src: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb89c6127750483.61489a00adcd0.png",
       name: "Fast Pizza App",
-      hrefDemo: "https://bucolic-twilight-5c4767.netlify.app/",
+      hrefDemo: "https://famous-pizza.netlify.app/",
       hrefCode: "https://github.com/ramprasadchauhan/Pizza-app",
     },
     {
